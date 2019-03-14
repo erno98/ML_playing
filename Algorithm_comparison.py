@@ -24,10 +24,6 @@ rfc = RandomForestClassifier()
 # gradient boosting
 gb = GradientBoostingClassifier()
 
-sgd.fit(X_train, y_train)
-# rfc.fit(X_train, y_train)
-# gb.fit(X_train, y_train)
-
 # parameter responsible for density of points
 # smaller the step, more data points on the plot
 step = 50
